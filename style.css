@@ -15,26 +15,70 @@ nav {
 }
 
 .container {
+    border: 2px solid red;
     display: flex;
     justify-content: center;
 }
 
 .all-killers {
-    border: 2px solid red;
-    width: 700px;
-    height: 100vh;
+    width: 1200px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .character-card {
-    border: 2px solid red;
-    background-image: url(https://deadbydaylight.com/static/f43553c6e729f1d05dee195a58c5c0c4/288b3/killer_trapper_headshot_a7962b1bc9.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover; 
     width: 220px;
     height: 220px;
+    margin-top: 20px;
 }
 
-.character-card h3 {
+.characters > h3 {
+    text-align: center;
     color: white;
+}
+
+.trapper {
+    background-image: url(https://deadbydaylight.com/static/f43553c6e729f1d05dee195a58c5c0c4/288b3/killer_trapper_headshot_a7962b1bc9.webp);
+}
+
+.wraith {
+    background-image: url(https://deadbydaylight.com/static/16abb5a278b8bce98cfffd04e400494a/288b3/killer_thewraith_headshot_b3af7f4350.webp);
+}
+
+.hillbilly {
+    background-image: url(https://deadbydaylight.com/static/27e766516d2935990054cb51a23bc207/288b3/killer_thehillbilly_headshot_848632fc4e.webp);
+}
+
+.nurse {
+    background-image: url(https://deadbydaylight.com/static/96a259859b4a29be6cb540a5ee4fe04f/288b3/killer_thenurse_headshot_215590e525.webp);
+}
+
+.huntress {
+    background-image: url(https://deadbydaylight.com/static/ebd074dac61bb506b52d5e68570f432c/288b3/killer_thetuntress_headshot_d4300a20dc.webp);
+}
+
+.shape {
+    background-image: url(https://deadbydaylight.com/static/837c7e60ca9c1406f21c0e4f6cc8fc3b/c8e23/killer_theshape_headshot_8de0a02ce7.webp);
+}
+
+.hag {
+    background-image: url(https://deadbydaylight.com/static/ae6a4ab0ee8b5e46c1ab93710ee2ccc3/288b3/killler_thehag_headshot_04ae638c4e.webp);
+}
+
+.doctor {
+    background-image: url(https://deadbydaylight.com/static/9d89f1255a64ac66ad4c718c9ff6e709/288b3/killer_thedoctor_headshot_0a6c6a9169.webp);
+}
+
+.cannibal {
+    background-image: url(https://deadbydaylight.com/static/5e931981e39e25732fd4b95b5b86795e/288b3/killer_thecannibal_headshot_c784f23cc7.webp);
+}
+
+.nightmare {
+    background-image: url(https://deadbydaylight.com/static/fbe040c0ebb2ad8c26045eb21864b88a/288b3/killer_thenightmare_headshot_89004c1b2e.webp);
 }
