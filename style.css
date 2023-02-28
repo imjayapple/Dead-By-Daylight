@@ -1,0 +1,40 @@
+body {
+    background-color: #2B293E;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    text-transform: uppercase;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.all-killers {
+    border: 2px solid red;
+    width: 700px;
+    height: 100vh;
+}
+
+.character-card {
+    border: 2px solid red;
+    background-image: url(https://deadbydaylight.com/static/f43553c6e729f1d05dee195a58c5c0c4/288b3/killer_trapper_headshot_a7962b1bc9.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    width: 220px;
+    height: 220px;
+}
+
+.character-card h3 {
+    color: white;
+}
