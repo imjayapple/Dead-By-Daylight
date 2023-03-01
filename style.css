@@ -41,6 +41,7 @@ nav {
 .characters > h3 {
     text-align: center;
     color: white;
+    filter: drop-shadow(5px 5px 2px black);
 }
 
 .trapper {
